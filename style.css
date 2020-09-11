@@ -1,0 +1,218 @@
+
+/* MAIN STYLE */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+  /* Navbar container */
+.navbar {
+  overflow: hidden;
+  background-color: white;
+  font-family: Arial;
+}
+
+/* Links inside the navbar */
+.navbar li {
+  list-style-type: none;
+  text-decoration: none;
+  float: left;
+  font-size: 16px;
+  color: black;
+  padding: 50px ;
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+
+/* Dropdown button */
+.dropdown .dropbtn {
+  font-size: 16px;
+  position: relative;
+  border: none;
+  outline: none;
+  color: black;
+  padding: 0px 0px 20px 0px;
+  background-color: inherit;
+  font-family: inherit; 
+  margin: 0;
+}
+.navbar a:hover, .dropdown:hover .dropbtn {
+  color: rgb(177, 23, 23);
+}
+.dropdown-content {
+  display: none;
+  position: static;
+}
+/* Links inside the dropdown */
+.dropdown-content a {
+  float: none;
+  color: rgb(177, 23, 23);
+  text-decoration: none;
+  display: block;
+}
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+  color: rgb(204, 73, 73);
+}
+
+/* Home page styles */
+.Consult{
+  height: 600px;
+  font-size: 35px;
+  padding: 50px;
+  text-align: center;
+  padding-top: 250px;
+  background: url("images/slide.jpg") center/cover no-repeat;
+}
+/* Slide from the right */
+.slide {
+  position: absolute;
+  top: 600px;
+  font-size: 30px;
+  padding: 50px;
+  bottom: 0;
+  border: none;
+  width: 50%;
+  height: 800px;
+  margin-left: 380px;
+  background: rgba(128, 128, 128, 0.61);
+  transition: all 1s;
+}
+.hide {
+  opacity:0;
+  left:-100%;
+}
+.show {
+  opacity:1;
+  left:0;
+}
+/* Service Section styles */
+.void{
+  height: 900px;
+}
+.title{
+  text-transform: uppercase;
+  padding-top: 80px;
+  font-size: 40px;
+  color: aliceblue;
+  text-align: center;
+}
+.services{
+  position: relative;
+  height: 500px;
+  width: 100%;
+  background: rgb(5, 5, 124);
+}
+.column1, .column2, .column3{
+  position: absolute;
+  padding: 40px;
+  background: rgba(161, 150, 150, 0.705);
+  height: 700px;
+  width: 25%;
+  float: left;
+  list-style-type: none;
+  margin: 50px;
+}
+.column1:hover, .column2:hover, .column3:hover{
+  background: #e1e1e1;
+  border-top: 1px solid #d0d0d0;
+}
+.column1{
+  left: 50px;
+  top: 1900px;
+}
+.column2{
+  left: 450px;
+  top: 1900px;
+}
+.column3{
+  left: 850px;
+  top: 1900px;
+}
+
+/* FOOTER STYLE */
+.container{
+  font-family: futura-lt-w01-light,sans-serif;
+  font-size: 110%;
+  color: white;
+  position: relative;
+  background: #000066;
+  text-align: center;
+  height: 600px;
+  padding: 10px 120px 30px 120px;
+}
+input {
+  padding: 5px;
+  background-color: #000066;
+  border: none;
+  cursor: pointer;
+  border-bottom: 1px solid white; 
+}
+input:focus{
+  outline: none;
+  border-bottom: 1px solid red; 
+}
+::placeholder { 
+  color: white;
+  font-size: 110%;
+  opacity: 1; 
+}
+h2{
+  text-transform: uppercase;
+  margin: 80px;
+}
+.col1{
+  float: left;
+  display: inline-block;
+  width: 39%;
+  margin-left: 10%;
+}
+.col2{
+  float: left;
+  display: inline-block;
+  width: 40%;
+  margin-left:10px;
+}
+.col3{
+  margin-top: 25px;
+  margin-bottom: 15px;
+  width: 80%;
+}
+.col4{
+  font-family: futura-lt-w01-light,sans-serif;
+  background: #000066;
+  border: none;
+  border-bottom: white;
+  width: 80%;
+  height: 100px;
+  border-bottom: 1px solid white; 
+}
+.col4:focus{
+  outline: none;
+  border-bottom: 1px solid red; 
+}
+.btm{
+  margin: 30px;
+  background: #000066;
+  border: none;
+  color: white;
+  font-size: 110%;
+  cursor: pointer;
+}
+.last{
+margin-left: 80px;
+}
+.info{
+  float: left;
+  text-align: left;
+  display: inline-block;
+  margin: 5px 20px 5px 50px;
+}
+footer a{
+padding-left: 5px;
+color: white;
+}
