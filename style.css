@@ -11,23 +11,37 @@
   overflow: hidden;
   background-color: white;
   font-family: Arial;
+  display: inline-block;
 }
-
-/* Links inside the navbar */
 .navbar li {
   list-style-type: none;
   text-decoration: none;
   float: left;
-  font-size: 16px;
+  font-size: 17px;
+  font-weight: 600;
   color: black;
-  padding: 50px ;
+  padding: 0px 50px 60px 60px ;
+}
+nav button{
+  list-style-type: none;
+  text-decoration: none;
+  font-size: 17px;
+  position: relative;
+  font-weight: 600;
+  color: black;
+  padding: 20px 50px 60px 60px ;
+}
+nav ul{
+  display: inline;
+}
+header img{
+  padding: 30px 110px 60px 70px ;
+  display: inline;
 }
 a{
   text-decoration: none;
   color: black;
 }
-
-/* Dropdown button */
 .dropdown .dropbtn {
   font-size: 16px;
   position: relative;
@@ -41,21 +55,23 @@ a{
 }
 .navbar a:hover, .dropdown:hover .dropbtn {
   color: rgb(177, 23, 23);
+  position: relative;
 }
 .dropdown-content {
   display: none;
-  position: static;
+  position: relative;
 }
-/* Links inside the dropdown */
 .dropdown-content a {
   float: none;
   color: rgb(177, 23, 23);
   text-decoration: none;
+
   display: block;
 }
-/* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {
   display: block;
+  margin-top: 20px;
+  position: fixed;
   color: rgb(204, 73, 73);
 }
 
