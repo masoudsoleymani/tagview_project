@@ -1,0 +1,213 @@
+
+/* MAIN STYLE */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+  /* Navbar container */
+.navbar {
+  overflow: hidden;
+  background-color: white;
+  font-family: Arial;
+  display: inline-block;
+}
+.navbar li {
+  list-style-type: none;
+  text-decoration: none;
+  float: left;
+  font-size: 17px;
+  font-weight: 600;
+  color: black;
+  padding: 0px 50px 60px 60px ;
+}
+nav button{
+  list-style-type: none;
+  text-decoration: none;
+  font-size: 17px;
+  position: relative;
+  font-weight: 600;
+  color: black;
+  padding: 20px 50px 60px 60px ;
+}
+nav ul{
+  display: inline;
+}
+header img{
+  padding: 30px 110px 60px 70px ;
+  display: inline;
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+.dropdown .dropbtn {
+  font-size: 16px;
+  position: relative;
+  border: none;
+  outline: none;
+  color: black;
+  padding: 0px 0px 20px 0px;
+  background-color: inherit;
+  font-family: inherit; 
+  margin: 0;
+}
+.navbar a:hover, .dropdown:hover .dropbtn {
+  color: rgb(177, 23, 23);
+  position: relative;
+}
+.dropdown-content {
+  display: none;
+  position: relative;
+}
+.dropdown-content a {
+  float: none;
+  color: rgb(177, 23, 23);
+  text-decoration: none;
+
+  display: block;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+  margin-top: 20px;
+  position: fixed;
+  color: rgb(239, 58, 58);
+}
+
+/* Home page styles */
+.Consult{
+  height: 600px;
+  font-size: 35px;
+  padding: 50px;
+  text-align: center;
+  padding-top: 250px;
+  background: url("../images/why.jpeg") center/cover no-repeat;
+}
+/* Slide from the right */
+.slide {
+  position: absolute;
+  text-align: center;
+  top: 600px;
+  font-size: 40px;
+  font-family: Geneva, Tahoma, sans-serif;
+  padding: 60px;
+  color: rgb(188, 0, 0);
+  bottom: 0;
+  border: none;
+  width: 50%;
+  height: 200px;
+  margin-left: 380px;
+  background: rgba(210, 209, 209, 0.579);
+  transition: all 1s;
+}
+.hide {
+  opacity:0;
+  left:-100%;
+}
+.show {
+  opacity:1;
+  left:0;
+}
+/* Service Section styles */
+.reason{
+  width: 50%;
+  margin-left: 380px;
+  margin-top: 100px;
+  padding-bottom: 50px;
+}
+h3{
+  font-size: 30px;
+  font-weight: 30px;
+  font-family: Geneva, Tahoma, sans-serif;
+  padding-bottom: 20px;
+  padding-top: 80px;
+}
+p{
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  line-height: 1.7;
+}
+
+/* FOOTER STYLE */
+.container{
+  font-family: futura-lt-w01-light,sans-serif;
+  font-size: 110%;
+  color: white;
+  position: relative;
+  background: #000066;
+  text-align: center;
+  height: 600px;
+  padding: 10px 120px 30px 120px;
+}
+input {
+  padding: 5px;
+  background-color: #000066;
+  border: none;
+  cursor: pointer;
+  border-bottom: 1px solid white; 
+}
+input:focus{
+  outline: none;
+  border-bottom: 1px solid red; 
+}
+::placeholder { 
+  color: white;
+  font-size: 110%;
+  opacity: 1; 
+}
+h2{
+  text-transform: uppercase;
+  margin: 80px;
+}
+.col1{
+  float: left;
+  display: inline-block;
+  width: 39%;
+  margin-left: 10%;
+}
+.col2{
+  float: left;
+  display: inline-block;
+  width: 40%;
+  margin-left:10px;
+}
+.col3{
+  margin-top: 25px;
+  margin-bottom: 15px;
+  width: 80%;
+}
+.col4{
+  font-family: futura-lt-w01-light,sans-serif;
+  background: #000066;
+  border: none;
+  border-bottom: white;
+  width: 80%;
+  height: 100px;
+  border-bottom: 1px solid white; 
+}
+.col4:focus{
+  outline: none;
+  border-bottom: 1px solid red; 
+}
+.btm{
+  margin: 30px;
+  background: #000066;
+  border: none;
+  color: white;
+  font-size: 110%;
+  cursor: pointer;
+}
+.last{
+margin-left: 80px;
+}
+.info{
+  float: left;
+  text-align: left;
+  display: inline-block;
+  margin: 5px 20px 5px 50px;
+}
+footer a{
+padding-left: 5px;
+color: white;
+}

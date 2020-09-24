@@ -1,0 +1,125 @@
+
+<!-- saved from url=(0036)http://127.0.0.1:5500/why/index.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tagview</title>
+    <link rel="stylesheet" href="./tagview_files/style.css">
+</head>
+<body>
+    <header>
+        <img src="./tagview_files/tagview.png" alt="">
+        <nav class="navbar">
+            
+            <ul>
+                <li><a href="http://127.0.0.1:5500/index.html">Home</a></li>
+                <li><a href="http://127.0.0.1:5500/why/index.html#why">Why choose us</a></li>
+                <li class="dropdown">
+                    <a class="dropbtn" href="http://127.0.0.1:5500/why/index.html#service">Our Services</a>
+                    <a class="dropdown-content" href="http://127.0.0.1:5500/customised/index.html">Customized Solutions</a>
+                </li>
+                <li><a href="http://127.0.0.1:5500/why/index.html#home">Cases</a></li>
+                <li><a href="http://127.0.0.1:5500/why/index.html#home">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="Consult">
+    </section>
+    <section class="void">
+        <div id="myID" class="slide show">
+            <h1>Why Choosing Us?</h1>
+        </div>
+    </section>
+
+    <section class="reason">
+        <ul>
+            <li>
+                <h3>1</h3>
+                <p>We have a senior team, with many years of experience in various technologies, ready to help the customer to define and implement the best digital solution considering cost, time and quality. We are a family owned and operated business. We count with a skilled technical team with robust expertise ready to help our clients to design and implement efficient digital solutions with the best balance of cost, time and quality.</p>
+            </li>
+
+            <li>
+                <h3>2</h3>
+                <p>In the last 17 years, we have acquired a complete software development process focused 100% on punctual deliveries. All code generated at the company is submitted to a review process by other developers to ensure quality and the maintenance of good practices. We use agile methods for project management and consolidation of an effective communication process with the client. We are a family owned and operated business.We acquired over 17 years of extensive hands-on development practice a software development process focused 100% on on-time deliveries. All code generated is submitted to a code-review process to assure quality and continuous improvement practices  in all steps of the cycle. We adopted agile methods to manage projects and consolidate a clear communication channel. We are a family owned and operated business.</p>
+            </li>
+            <li>
+                <h3>3</h3>
+                <p>We invest daily in training so that new developers quickly acquire technical knowledge and also good customer relationship practices. We are a family owned and operated business.</p>
+            </li>
+            
+            <li>
+                <h3>4</h3>
+                <p>Both the managers and the technical team are always available to assist customers, ensuring that all requests are answered in the shortest possible time. We are a family owned and operated business.Business managers and technical teams are always available to talk to clients.  Such availability allows us to meet their needs in a more effective and quicker manner.</p>
+            </li>
+ 
+
+        </ul>
+        
+
+    </section>
+
+    <footer>
+        <form class="container">
+            <h2>contate-nos</h2>
+            <div>
+                <input class="col1" type="text" placeholder="Nome *">
+                <input class="col2" type="text" placeholder="Email *">
+            </div>
+            <div>
+                <input class="col3" type="text" placeholder="Compny">
+            </div>
+            <div>
+                <textarea class="col4" type="text" placeholder="Tell us about your need"></textarea>
+            </div>
+            <div>
+                <button class="btm">Submit</button>
+            </div>
+            <div class="last">          
+                <span class="info">Rua Frei Manoel da Ressurreição 1488 sala 44
+                <br> Campinas - SP  - Brasil</span>
+                <span class="info">Tel. (19) 3243-3441</span>
+                <span class="info">Email.<a href="http://127.0.0.1:5500/why/index.html#">info@tagview.com.br</a></span>
+            </div>
+        </form>
+    </footer>
+    <script src="./tagview_files/app.js"></script>
+<!-- Code injected by live-server -->
+<script type="text/javascript">
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+</body></html>
