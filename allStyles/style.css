@@ -11,38 +11,20 @@
   overflow: hidden;
   background-color: white;
   font-family: Arial;
-  display: inline-block;
 }
 .navbar li {
   list-style-type: none;
   text-decoration: none;
-  float: left;
   font-size: 17px;
-  font-weight: 600;
-  color: black;
-  padding: 0px 50px 60px 60px ;
-}
-nav button{
-  list-style-type: none;
-  text-decoration: none;
-  font-size: 17px;
-  position: relative;
-  font-weight: 600;
-  color: black;
-  padding: 20px 50px 60px 60px ;
-}
-nav ul{
-  display: inline;
-}
-header img{
-  padding: 30px 110px 60px 70px ;
-  display: inline;
-}
-a{
-  text-decoration: none;
+  font-weight: 400;
   color: black;
 }
-.dropdown .dropbtn {
+img ,.navbar-brand{
+  width: 130px;
+  margin-bottom: 30px;
+}
+
+.dropdown {
   font-size: 16px;
   position: relative;
   border: none;
@@ -53,27 +35,20 @@ a{
   font-family: inherit; 
   margin: 0;
 }
-.navbar a:hover, .dropdown:hover .dropbtn {
-  color: rgb(177, 23, 23);
-  position: relative;
-}
 .dropdown-content {
   display: none;
   position: relative;
 }
 .dropdown-content a {
   float: none;
-  color: rgb(177, 23, 23);
   text-decoration: none;
-
   display: block;
 }
 .dropdown:hover .dropdown-content {
-  display: block;
-  margin-top: 20px;
-  position: fixed;
-  color: rgb(204, 73, 73);
+  display: inline;
+  position: static;
 }
+
 
 /* Home page styles */
 .Consult{
@@ -88,13 +63,13 @@ a{
 .slide {
   position: absolute;
   top: 600px;
-  font-size: 30px;
+  font-size: 20px;
   padding: 50px;
   bottom: 0;
   border: none;
-  width: 50%;
+  width: 60%;
   height: 800px;
-  margin-left: 380px;
+  /* margin-left: 380px; */
   background: rgba(128, 128, 128, 0.61);
   transition: all 1s;
 }
@@ -231,4 +206,54 @@ margin-left: 80px;
 footer a{
 padding-left: 5px;
 color: white;
+}
+
+
+
+/********** Large devices only **********/
+@media (min-width: 992px){
+
+    /* Navbar container */
+    .navbar{
+      padding-top: 20px;
+    }
+  .navbar li {
+  list-style-type: none;
+  text-decoration: none;
+  float: left;
+  font-size: 17px;
+  font-weight: 600;
+  color: black;
+  padding: 0px 50px 60px 60px ;
+}
+img ,.navbar-brand{
+  width: 180px;
+  margin-bottom: 70px;
+  margin-right: 100px;
+}
+.dropdown {
+  font-size: 16px;
+  position: relative;
+  border: none;
+  outline: none;
+  color: black;
+  padding: 0px 0px 20px 0px;
+  background-color: inherit;
+  font-family: inherit; 
+  margin: 0;
+}
+.dropdown-content {
+  display: none;
+  position: relative;
+}
+.dropdown-content a {
+  float: none;
+  text-decoration: none;
+  display: block;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+  position: fixed;
+}
+
 }
