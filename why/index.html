@@ -1,28 +1,46 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>tagview</title>
+    <link rel="stylesheet" href="../allStyles/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <!-- Navbar container -->
     <header>
-        <img src="../images/tagview.png" alt="">
-        <nav class="navbar">
-            
-            <ul>
-                <li><a href="../index.html">Home</a></li>
-                <li><a href="#why">Why choose us</a></li>
-                <li class="dropdown">
-                    <a class="dropbtn" href="#service">Our Services</a>
-                    <a class="dropdown-content" href="../customised/index.html">Customized Solutions</a>
+		<nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">
+                <img src="../images/tagview.png" alt="tagview icon">
+              </a>
+            <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="../index.html">Home </a>
                 </li>
-                <li><a href="#home">Cases</a></li>
-                <li><a href="#home">Contact</a></li>
-            </ul>
-        </nav>
+                <li class="nav-item active">
+                  <a class="nav-link" href="../why/index.html">Why choose us </a>
+                </li>
+                <li class="dropdown nav-item active">
+                    <a class="nav-link dropbtn" href="../index.html#service">Our Services</a>
+                    <a class="nav-link dropdown-content" href="../customised/index.html">Customized Solutions</a>
+                </li>
+                <li class="nav-item active">
+                  <a class="nav-link" href="">Cases</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#contact">Contact</a>
+                  </li>
+              </ul>
+            </div>
+          </nav>
     </header>
 
+    <!-- Consult Section -->
     <section class="Consult">
     </section>
     <section class="void">
@@ -30,9 +48,8 @@
             <h1>Why Choosing Us?</h1>
         </div>
     </section>
-
-    <section class="reason">
-        <ul>
+    <section >
+        <ul class="reason">
             <li>
                 <h3>1</h3>
                 <p>We have a senior team, with many years of experience in various technologies, ready to help the customer to define and implement the best digital solution considering cost, time and quality. We are a family owned and operated business. We count with a skilled technical team with robust expertise ready to help our clients to design and implement efficient digital solutions with the best balance of cost, time and quality.</p>
@@ -51,37 +68,37 @@
                 <h3>4</h3>
                 <p>Both the managers and the technical team are always available to assist customers, ensuring that all requests are answered in the shortest possible time. We are a family owned and operated business.Business managers and technical teams are always available to talk to clients.  Such availability allows us to meet their needs in a more effective and quicker manner.</p>
             </li>
- 
-
         </ul>
-        
-
     </section>
 
-    <footer>
-        <form class="container">
+    <!-- Footer Section -->
+    <footer id="contact" class="fcontainer">
+        <form class="foot" >
             <h2>contate-nos</h2>
             <div>
-                <input class="col1" type="text" placeholder="Nome *">
-                <input class="col2" type="text" placeholder="Email *">
+                <input class="col" type="text" placeholder="Nome *">
+                <input class="col" type="text" placeholder="Email *">
             </div>
             <div>
-                <input class="col3" type="text" placeholder="Compny">
+                <input class="col" type="text" placeholder="Compny">
             </div>
             <div>
-                <textarea class="col4" type="text" placeholder="Tell us about your need" ></textarea>
+                <textarea class="col" placeholder="Tell us about your need" ></textarea>
             </div>
             <div>
                 <button class="btm">Submit</button>
             </div>
-            <div class="last">          
-                <span class="info">Rua Frei Manoel da Ressurreição 1488 sala 44
+            <div class="col">          
+                <span class="left">Rua Frei Manoel da Ressurreição 1488 sala 44
                 <br> Campinas - SP  - Brasil</span>
-                <span class="info">Tel. (19) 3243-3441</span>
-                <span class="info">Email.<a href="#">info@tagview.com.br</a></span>
+                <span class="right">Tel. (19) 3243-3441</span>
+                <span class="right">Email.<a href="#">info@tagview.com.br</a></span>
             </div>
         </form>
     </footer>
-    <script src="app.js"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="../script/js/bootstrap.min.js"></script>
+    <script src="../script/app.js"></script>
 </body>
 </html>
