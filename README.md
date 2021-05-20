@@ -1,38 +1,12 @@
-# This Repositories is for tagview clone
+# TagView-UI
 
-A simlpe challenge of cloning a multiple page website for practice purposes.
+Published at:  https://masoudsoleymani.github.io/tagview_project/index.html
 
-check it out:  https://masoudsoleymani.github.io/tagview_project/index.html
-
-
-# Features:
+## Features:
 - Easy navigation.
-- Home Page Design
-- Website Footer
 - Cohesive Card Designs.
 
-
-
-
-
-# Technologies:
-- HTML5
-- CSS3
-- javascript
-
-
-
-
-
-# Status:
-- Ongoing
-
-
-
-# Screens
-
-
-
+## Screens
 
 ![](images/screenone.jpg)
 
